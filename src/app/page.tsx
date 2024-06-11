@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Hello, Hero!</h1>
+    <main className="grid grid-cols-8">
+     
     </main>
   );
 }
