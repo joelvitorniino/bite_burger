@@ -12,8 +12,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
-      <MenuBar />
+      <Head>
+        <title>Bite Burger</title>
+      </Head>
+      <body className={inter.className}>
+        <MenuBar />
+        {children}
+      </body>
     </html>
   );
 }
