@@ -15,7 +15,7 @@ export default function RootLayout({
       <Head>
         <title>Bite Burger</title>
       </Head>
-      <body className={inter.className}>
+      <body className={`${inter.className} grid grid-cols-8"`}>
         <MenuBar />
         {children}
       </body>
