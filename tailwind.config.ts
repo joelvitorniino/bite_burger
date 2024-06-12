@@ -18,13 +18,21 @@ const config: Config = {
         'red-light': '#EA1D2C'
       },
       fontFamily: {
-        inter: ["Inter", "sans-serif"]
+        'condensed': ['Roboto Condensed', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif'],
       },
       textColor: {
         'red-light': '#EA1D2C'
-      }
+      },
+      fontSize: {
+        '64': '4rem', // Define o tamanho 64 como 4 rem
+      },
+      fontStyle: {
+        'italic': 'italic', // Define o estilo como itálico
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
